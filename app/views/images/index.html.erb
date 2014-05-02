@@ -2,3 +2,5 @@
 <% @images.each do |image| %>
   <%= image_tag image.image.url %>
 <% end %>
+
+<%= link_to 'イメージ投稿', new_image_path %>

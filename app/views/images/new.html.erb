@@ -1,5 +1,7 @@
 <h1>Post image</h1>
 
+<%= link_to 'トップへ', images_path %>
+
 <%= form_for @image do |f| %>
   <%= f.label :image %>
   <%= f.file_field :image %>
